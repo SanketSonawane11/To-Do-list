@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .number
+{
+    width: 100vw;
+    height: auto;
+    padding: 5vw;
+} */
+
+.input
+{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addbtn
+{
+    color:#030616;
+    border-radius: 0.5vw;
+    transition: all 0.4s ease-in-out;
+}
+.addbtn:hover
+{
+    background-color: #030616;
+    color: #fff;
+    border-radius: 1.2vw;
+}
+
+.addbtn:active
+{
+    background-color: transparent;
+    color: #030616;
+}
+
+.mainlist
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: auto;
+}
+
+/* .donetasks
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.tableheading
+{
+    width: 90vw;
+    height: 2.5vw;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1vw;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.tableheading:hover
+{
+    /* background: rgba(227, 255, 168, 0.566); */
+    font-size: 1.6vw;
+
+}
+
+.tasklist
+{
+    width: 90vw;
+    height: auto;
+    padding: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    background-color: transparent;
+}
+
+.comlist
+{
+    width: 90vw;
+    height: auto;
+    padding: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .tasklist:hover
+{
+    scale: 1.1;
+} */
+
+.defaultext
+{
+    font-size: 1.8vw;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    margin: 0.7vw;
+}
+
+.defaultext:hover
+{
+    color: #fff;
+}
+
+.taskname
+{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.taskdesc
+{
+    font-size: 1.5vw;
+}
+
+.done
+{
+    width: 4vw;
+    margin: 0.2vw;
+    height: 2.5vw;
+    border-radius: 1vw;
+    background-color: #ffffff5b;
+    /* box-shadow: 0.5px 0.5px 0.1vw #030616; */
+    border: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.done:hover
+{
+    background-color: #fff;
+}
+
+.done:hover .tasklist
+{
+    background-color: #ffffff64;
+}
+
+.delete
+{
+    width: 5vw;
+    height: 2.5vw;
+    margin: 0.2vw;
+    border-radius: 1vw;
+    border: 0;
+    background-color: #ff7171;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete:hover
+{
+    background-color: #fff;
+}
+
+.delete:hover .tasklist
+{
+    background-color: #ff7171;
+}
